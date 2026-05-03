@@ -10,6 +10,10 @@
   <project path="vendor/extra" name="android_vendor_extra" remote="pisel-fogos" />
   <remove-project name="PixelOS-AOSP/android_packages_apps_Updater" />
   <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="pisel-fogos" />
+  <remove-project name="PixelOS-AOSP/android_frameworks_base" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="pisel-fogos" />
+  <remove-project name="PixelOS-AOSP/android_packages_apps_Settings" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="pisel-fogos" />
 
   <!-- Sync common trees -->
   <project path="device/motorola/sm6375-common" name="android_device_motorola_sm6375-common" remote="pisel-fogos" />
