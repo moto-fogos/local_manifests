@@ -1,28 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="https://github.com/pixelos-fogos"
-          name="pisel-fogos"
+  <remote fetch="https://github.com/moto-fogos"
+          name="moto-fogos"
           revision="sixteen-qpr2" />
 
   <!-- Sync required -->
   <project path="hardware/motorola" name="LineageOS/android_hardware_motorola" remote="github" revision="lineage-23.2" />
   <project path="hardware/samsung/slsi/nfc" name="LineageOS/android_hardware_samsung_slsi_nfc" remote="github" revision="lineage-23.2" />
-  <project path="vendor/extra" name="android_vendor_extra" remote="pisel-fogos" />
+  <project path="vendor/extra" name="android_vendor_extra" remote="moto-fogos" />
   <remove-project name="PixelOS-AOSP/android_packages_apps_Updater" />
-  <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="pisel-fogos" />
+  <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="moto-fogos" />
   <remove-project name="PixelOS-AOSP/android_frameworks_base" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="pisel-fogos" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="moto-fogos" />
   <remove-project name="PixelOS-AOSP/android_packages_apps_Settings" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="pisel-fogos" />
-  <project path="packages/apps/LMOFreeform" name="android_packages_apps_LMOFreeform" remote="pisel-fogos" />
-  <project path="packages/apps/GameBar" name="android_packages_apps_GameBar" remote="pisel-fogos" revision="lineage-23.2" />
-
-  <!-- Sync common trees -->
-  <project path="device/motorola/sm6375-common" name="android_device_motorola_sm6375-common" remote="pisel-fogos" />
-  <project path="kernel/motorola/sm6375" name="android_kernel_motorola_sm6375" remote="pisel-fogos" />
-  <project path="vendor/motorola/sm6375-common" name="proprietary_vendor_motorola_sm6375-common" remote="pisel-fogos" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="moto-fogos" />
+  <project path="packages/apps/LMOFreeform" name="android_packages_apps_LMOFreeform" remote="moto-fogos" />
 
   <!-- Sync fogos trees -->
-  <project path="device/motorola/fogos" name="android_device_motorola_fogos" remote="pisel-fogos" />
-  <project path="vendor/motorola/fogos" name="proprietary_vendor_motorola_fogos" remote="pisel-fogos" />
+  <project path="device/motorola/fogos" name="android_device_motorola_fogos" remote="moto-fogos" />
+  <project path="vendor/motorola/fogos" name="proprietary_vendor_motorola_fogos" remote="moto-fogos" />
+  <project path="kernel/motorola/sm6375" name="android_kernel_motorola_sm6375" remote="moto-fogos" />
 </manifest>
