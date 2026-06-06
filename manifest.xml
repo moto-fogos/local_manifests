@@ -10,11 +10,6 @@
   <project path="vendor/extra" name="android_vendor_extra" remote="moto-fogos" />
   <remove-project name="PixelOS-AOSP/android_packages_apps_Updater" />
   <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="moto-fogos" />
-  <remove-project name="PixelOS-AOSP/android_frameworks_base" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="moto-fogos" />
-  <remove-project name="PixelOS-AOSP/android_packages_apps_Settings" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="moto-fogos" />
-  <project path="packages/apps/LMOFreeform" name="android_packages_apps_LMOFreeform" remote="moto-fogos" />
 
   <!-- Sync fogos trees -->
   <project path="device/motorola/fogos" name="android_device_motorola_fogos" remote="moto-fogos" />
