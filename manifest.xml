@@ -14,5 +14,6 @@
   <!-- Sync fogos trees -->
   <project path="device/motorola/fogos" name="android_device_motorola_fogos" remote="moto-fogos" />
   <project path="vendor/motorola/fogos" name="proprietary_vendor_motorola_fogos" remote="moto-fogos" />
+  <project path="vendor/motorola/motocamera" name="vendor_motorola_motocamera" remote="moto-fogos" />
   <project path="kernel/motorola/sm6375" name="android_kernel_motorola_sm6375" remote="moto-fogos" />
 </manifest>
