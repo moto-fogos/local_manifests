@@ -18,6 +18,7 @@
   <!-- Others -->
   <project path="packages/apps/DolbyAtmos" name="android_packages_apps_DolbyAtmos" remote="moto-fogos" />
   <project path="packages/apps/ParanoidSense" name="android_packages_apps_ParanoidSense" remote="moto-fogos" />
+  <project path="vendor/extra" name="los-byben/android_vendor_extra" remote="github" revision="lineage-24.0" />
 
   <!-- Vendor -->
   <project path="vendor/motorola/fogos" name="proprietary_vendor_motorola_fogos" remote="moto-fogos" />
